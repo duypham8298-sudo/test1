@@ -101,3 +101,4 @@ giftBtn.addEventListener('click', () => {
 
 
 startFalling();
+
