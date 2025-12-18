@@ -57,7 +57,7 @@ fillBtn.addEventListener('click', () => {
     pumpHeart();
     createFloatingEmoji();
 
-    if (clickCount >= 5) {
+    if (clickCount >= 1) {
     clickCount = 0;
     if (level < 100) {
         level += 10;
@@ -97,6 +97,7 @@ giftBtn.addEventListener('click', () => {
     window.location.href = 'style/gift.html';
     }, 300);
 });
+
 
 
 startFalling();
